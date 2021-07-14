@@ -1,0 +1,75 @@
+body {
+    font-family: 'Graduate', cursive;
+    margin: 0px;
+}
+/* Section 1 for top */
+.container {
+    background-color: #2D25A0;
+    
+}
+.top-part {
+    display: flex;
+    padding-left: 10%;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+}
+.content {
+    width: 50%;
+}
+
+
+h1 {
+    color: white;
+    font-size: 84px;
+    line-height: 150px;
+    font-weight: 700;
+}
+button {
+    text-decoration: none;
+    background-color: rgb(134, 233, 22);
+    border: 1x solid;
+    padding: 2%;
+    color: rgb(192, 158, 158);
+    border-radius: 25%;
+    width: 180px;
+    background-image: linear-gradient(hotpink yellow);
+    box-shadow: 10px 10px 23px gray;
+    
+}
+button a {
+    text-decoration: none;
+    color: rgb(246, 67, 12);
+    font-size: 20px;
+    font-weight: 900;
+}
+.content img{
+    width: 100%;
+}
+
+/* Website courses part */
+.container2 {
+    padding-left: 10%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+}
+.course {
+    border: 1px solid rgb(235, 226, 226);
+    padding: 5%;
+    box-shadow: gray 1px 2px 5px;
+    border-radius: 5%;
+    align-items: center;
+}
+.course .course-banner img{
+    width: 370px;
+    align-items: center;
+    border-radius: 5%;
+}
