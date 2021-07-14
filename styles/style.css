@@ -15,7 +15,7 @@ body {
     padding-right: 10%;
 }
 .content {
-    width: 50%;
+    width: 100%;
 }
 
 
@@ -63,13 +63,24 @@ button a {
 }
 .course {
     border: 1px solid rgb(235, 226, 226);
-    padding: 5%;
+    padding-left: -50%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-right: -10%;
     box-shadow: gray 1px 2px 5px;
     border-radius: 5%;
-    align-items: center;
+    text-align: center;
+}
+.course-detail {
+    text-align: justify;
+    padding: 5%;
 }
 .course .course-banner img{
-    width: 370px;
+    width: 450px;
     align-items: center;
     border-radius: 5%;
+
+}
+.course-title {
+    font-size: 28px;
 }
