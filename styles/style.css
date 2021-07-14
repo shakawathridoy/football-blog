@@ -55,13 +55,13 @@ button a {
     padding-right: 10%;
 }
 
-.courses {
+.players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
 
 }
-.course {
+.player {
     border: 1px solid rgb(235, 226, 226);
     padding-left: -50%;
     padding-top: 4%;
@@ -71,16 +71,16 @@ button a {
     border-radius: 5%;
     text-align: center;
 }
-.course-detail {
+.player-detail {
     text-align: justify;
     padding: 5%;
 }
-.course .course-banner img{
+.player .player-banner img{
     width: 450px;
     align-items: center;
     border-radius: 5%;
 
 }
-.course-title {
+.player-title {
     font-size: 28px;
 }
