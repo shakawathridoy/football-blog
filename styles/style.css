@@ -84,3 +84,17 @@ button a {
 .player-title {
     font-size: 28px;
 }
+/* 3rd section  */
+
+.video-sec {
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 110x;
+}
+.top-part2 {
+    display: flex;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+}
