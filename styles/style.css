@@ -157,14 +157,23 @@ button a {
 /* Media Query for Responsive for mobile and tablet */
 
 @media only screen and (max-width: 688px) {
-    .container .container2 .container3 .container4 {
-        
+    .container2, .container4 {
+        width: 100%;
     }
-    .top-part, .players, .top-part2, .footer {
+    .content img{
+        width: 329px;
+        height: 259.17px;
+        left: 344px;
+        top: 374px;
+    }
+    .players {
         background-color: rgb(230, 225, 216);
         grid-template-columns: repeat(1, 1fr);
     }
     .players {
         flex-direction: column;
+    }
+    .hello2 {
+       width: 329px;
     }
 }
