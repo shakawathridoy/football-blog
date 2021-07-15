@@ -156,9 +156,26 @@ button a {
 
 /* Media Query for Responsive for mobile and tablet */
 
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 700px) {
     .container2, .container4 {
         width: 100%;
+    }
+    .top-part {
+        display: block;
+    }
+    h1 {
+        color: white;
+        font-size: 36px;
+        line-height: 60px;
+        font-weight: 700;
+    }
+    button {
+        padding: 2%;
+        color: rgb(46, 7, 7);
+        border-radius: 25%;
+        width: 170px;
+        box-shadow: 10px 10px 23px gray;
+        
     }
     .content img{
         width: 329px;
@@ -166,6 +183,11 @@ button a {
         left: 344px;
         top: 374px;
     }
+    .content img:hover {
+        transform: rotate(-10deg);
+        transition: transform 1s ease-in;
+    }
+
     .players {
         background-color: rgb(230, 225, 216);
         grid-template-columns: repeat(1, 1fr);
